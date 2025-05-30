@@ -12,7 +12,7 @@ documentation = "https://rustwasm.github.io/wasm-pack/"
 
 [dependencies]
 anyhow = "1.0.68"
-binary-install = "0.4.1"
+binary-install = { git = "https://github.com/rustwasm/binary-install", version = "0.4.1" }
 cargo_metadata = "0.15.2"
 chrono = "0.4.23"
 console = "0.15.5"
